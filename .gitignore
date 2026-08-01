@@ -1,0 +1,17 @@
+# Block Node Modules globally
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Block Environment Variables globally
+.env
+backend/.env
+frontend/.env
+
+# Expo & React Native specific
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+npm-debug.*
+.DS_Store
